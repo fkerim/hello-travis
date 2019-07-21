@@ -1,9 +1,9 @@
 language: csharp
 solution: travis.sln
 mono: none
-dotnet: 2.2.107
+dotnet: 2.1.502
  
 script:
-- dotnet restore
+
 - dotnet build
 - dotnet test MathService.Tests/MathService.Tests.csproj
