@@ -1,8 +1,7 @@
 language: csharp
-sudo: required
 solution: travis.sln
 mono: none
-dotnet: 2.2
+dotnet: 2.0.0
  
 script:
 - dotnet restore
