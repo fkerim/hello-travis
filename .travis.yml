@@ -1,8 +1,10 @@
 language: csharp
+sudo: required
 solution: travis.sln
 mono: none
-dotnet: 2.2.0
+dotnet: 2.2
  
 script:
+- dotnet restore
 - dotnet build
 - dotnet test MathService.Tests/MathService.Tests.csproj
