@@ -6,4 +6,4 @@ dotnet: 2.1
 script:
 
 - dotnet build
-- dotnet test MathService.Tests/MathService.Tests.csproj
+- dotnet test MathServiceCore.Tests/MathServiceCore.Tests.csproj
