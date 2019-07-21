@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MathService
+namespace MathServiceCore
 {
     public class Common
     {

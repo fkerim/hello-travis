@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace MathService.Tests
+namespace MathServiceCore.Tests
 {
     public class CommonTest
     {
