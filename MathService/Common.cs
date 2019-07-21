@@ -7,6 +7,7 @@ namespace MathService
         public bool IsNegative(int number)
         {
             //return false;
+
             return number < 0;
         }
 
